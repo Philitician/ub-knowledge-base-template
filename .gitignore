@@ -1,0 +1,11 @@
+# Obsidian workspace (personlige preferanser)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+~$*
