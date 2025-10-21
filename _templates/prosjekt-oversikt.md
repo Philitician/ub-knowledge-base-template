@@ -1,12 +1,9 @@
 ---
 title: "Prosjekt: {{project_name}}"
 date: "{{date:YYYY-MM-DD}}"
-project: "{{project_slug}}"
 kunde: "{{customer}}"
-owner: "{{project_manager}}"
 status: "aktiv"
 tags: ["prosjekt"]
-type: "project"
 summary: "{{summary}}"
 ---
 

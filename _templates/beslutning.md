@@ -1,10 +1,7 @@
 ---
 title: "Beslutning: {{title}}"
 date: "{{date:YYYY-MM-DD}}"
-owner: "{{owner}}"
-status: "besluttet"
 tags: ["beslutning"]
-type: "decision"
 summary: "{{summary}}"
 ---
 

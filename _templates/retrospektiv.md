@@ -1,10 +1,7 @@
 ---
 title: "Retrospektiv: {{period}}"
 date: "{{date:YYYY-MM-DD}}"
-owner: "Team"
 tags: ["retrospektiv", "læring"]
-type: "retrospective"
-status: "ferdig"
 summary: "{{summary}}"
 ---
 

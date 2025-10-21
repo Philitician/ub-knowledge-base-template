@@ -3,7 +3,6 @@ title: "Læringslogg: {{name}} - {{date:YYYY-MM-DD}}"
 date: "{{date:YYYY-MM-DD}}"
 owner: "{{name}}"
 tags: ["læring", "refleksjon"]
-type: "learning"
 summary: "{{summary}}"
 ---
 

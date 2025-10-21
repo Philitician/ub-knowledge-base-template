@@ -1,12 +1,9 @@
 ---
 title: "Møte: {{title}}"
 date: "{{date:YYYY-MM-DD}}"
-project: "{{project}}"
-owner: "{{owner}}"
-status: "utkast"
 tags: ["møte"]
-type: "meeting"
 summary: "{{summary}}"
+status: "utkast"
 ---
 
 ## Deltakere

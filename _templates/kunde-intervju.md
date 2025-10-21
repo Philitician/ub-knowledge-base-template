@@ -1,11 +1,9 @@
 ---
 title: "Kundeintervju: {{customer_name}}"
 date: "{{date:YYYY-MM-DD}}"
-interviewer: "{{your_name}}"
 tags: ["kunde", "intervju", "research"]
-type: "interview"
-status: "utkast"
 summary: "{{summary}}"
+lead_status: "varm"
 ---
 
 # Kundeintervju: {{customer_name}}

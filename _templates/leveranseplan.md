@@ -1,12 +1,9 @@
 ---
 title: "Leveranseplan: {{project}}"
 date: "{{date:YYYY-MM-DD}}"
-project: "{{project}}"
-owner: "{{owner}}"
 tags: ["leveranse", "plan"]
-type: "delivery-plan"
-status: "utkast"
 summary: "{{summary}}"
+status: "utkast"
 ---
 
 # Leveranseplan: {{project}}

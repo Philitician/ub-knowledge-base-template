@@ -1,10 +1,7 @@
 ---
 title: "Ukerapport uke {{week}}"
 date: "{{date:YYYY-MM-DD}}"
-owner: "{{name}}"
-status: "utkast"
 tags: ["rapport", "status"]
-type: "weekly-report"
 summary: "{{summary}}"
 ---
 

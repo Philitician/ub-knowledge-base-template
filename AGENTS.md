@@ -10,7 +10,7 @@ Denne filen gir detaljert veiledning til AI-agenter som jobber med denne kunnska
 
 ## Prosjektoversikt
 
-Dette er en template for en ungdomsbed rifts (UB) kunnskapsbase.
+Dette er en template for en ungdomsbedrifts (UB) kunnskapsbase.
 
 **Formål:** Gi studenter (16-19 år) en strukturert måte å dokumentere læring, prosjekter og forretningsdrift.
 
@@ -25,6 +25,7 @@ Dette er en template for en ungdomsbed rifts (UB) kunnskapsbase.
 ### Grunnprinsipper
 
 **✅ GJØR:**
+
 1. Opprett mapper/filer **bare når de faktisk trengs**
 2. Fyll ut med **faktisk informasjon** fra samtalen
 3. Bruk templates fra `_templates/` når relevant
@@ -32,6 +33,7 @@ Dette er en template for en ungdomsbed rifts (UB) kunnskapsbase.
 5. Spør oppklarende spørsmål for å få riktig info
 
 **❌ IKKE GJØR:**
+
 1. Opprett alle 8 mapper (00-08) på forhånd
 2. Lag tomme placeholder-filer
 3. Kopier boilerplate uten faktisk innhold
@@ -55,6 +57,7 @@ La meg stille noen spørsmål først:
 
 1. **Bedriftsnavn:** Hva heter ungdomsbedriften?
 2. **Fase:** Hvor langt har dere kommet?
+
    - [ ] Ide-fase (planleggingsom ingen kunder ennå)
    - [ ] Har sendt noen tilbud
    - [ ] Har aktive prosjekter
@@ -69,7 +72,7 @@ La meg stille noen spørsmål først:
    - [ ] Dokumentere et pågående prosjekt
    - [ ] Forberede salg/tilbud
    - [ ] Skrive læringslogg
-   - [ ] Annet: ___________
+   - [ ] Annet: \***\*\_\_\_\*\***
 ```
 
 ### Step 2: Create Based on Actual Need
@@ -82,6 +85,7 @@ La meg stille noen spørsmål først:
 Student: "Vi heter TechKids. Vi er helt nye, ingen kunder ennå."
 
 Agent oppgave:
+
 1. Opprett 00-handbok/
 2. Opprett 00-handbok/index.md
 3. Opprett 00-handbok/formaal-og-maal.md
@@ -98,10 +102,11 @@ Agent oppgave:
 Student: "Vi har fått en henvendelse fra et håndballag!"
 
 Agent oppgave:
+
 1. IF 02-marked/ ikke eksisterer → opprett den
 2. IF 02-marked/leads.md ikke eksisterer → opprett den
 3. IF 02-marked/pris-og-tjenester.md ikke eksisterer → spør om priser først
-4. Bruk _templates/kunde-intervju.md
+4. Bruk \_templates/kunde-intervju.md
 5. Intervju student om leadet:
    - Hvem er de?
    - Hva trenger de?
@@ -116,6 +121,7 @@ Agent oppgave:
 Student: "Vi må lage budsjett for året"
 
 Agent oppgave:
+
 1. IF 04-okonomi/ ikke eksisterer → opprett den
 2. Opprett 04-okonomi/index.md
 3. Opprett 04-okonomi/budsjett.md
@@ -132,6 +138,7 @@ Agent oppgave:
 Student: "Vi har 3 møtenotater og en prosjektbeskrivelse allerede"
 
 Agent oppgave:
+
 1. "Flott! Kan du dele dem med meg?"
 2. Analyser dokumentasjonen
 3. Identifiser hva som finnes:
@@ -154,10 +161,12 @@ Agent oppgave:
 
 ```markdown
 ✅ Jeg har opprettet:
+
 - 00-handbok/formaal-og-maal.md (fylt ut basert på vårt samtale)
 - 00-handbok/roller-og-ansvar.md (med teammedlemmene du nevnte)
 
 Neste steg:
+
 - Vil dere sette priser? (viktig for salg)
 - Skal vi lage budsjett? (god oversikt over økonomi)
 - Eller vil dere dokumentere første møte?
@@ -184,16 +193,19 @@ Neste steg:
 **Prioritering:**
 
 🔴 **KRITISK (lag tidlig):**
+
 - `00-handbok/` (formål, roller)
 - `02-marked/` (priser, leads)
 - `05-laering/` (læringslogger - VIKTIG for UB-karakter!)
 
 🟠 **HØY (lag når relevant):**
+
 - `03-prosjekter/` (når kunde kommer)
 - `04-okonomi/` (budsjett, fakturaer)
 - `06-moter/` (møtenotater)
 
 🟡 **MEDIUM/LAV (lag ved behov):**
+
 - `01-bedrift/` (om oss)
 - `07-research/` (analyse)
 - `08-ressurser/` (ressurser)
@@ -206,17 +218,17 @@ Alle templates ligger i `_templates/`. Bruk dem aktivt!
 
 ### Når bruke hvilken template:
 
-| Situasjon | Template | Eksempel |
-|-----------|----------|----------|
-| Teammøte | `motenotat.md` | Ukentlig statusmøte |
-| Ny kunde | `prosjekt-oversikt.md` | Lions Kristiansand-prosjekt |
-| Ukentlig refleksjon | `laeringslogg.md` | "Hva lærte jeg denne uka?" |
-| Kundesamtale | `kunde-intervju.md` | Kartlegge kundebehov |
-| Planlegge leveranse | `leveranseplan.md` | Hva leveres når? |
-| Etter prosjekt | `retrospektiv.md` | Hva lærte vi? |
-| Send tilbud | (Lag selv basert på kunde-intervju) | Prisestimat |
-| Viktig valg | `beslutning.md` | "Hvilke verktøy skal vi bruke?" |
-| Design-oppdrag | `kreativ-brief.md` | Logo for kunde |
+| Situasjon           | Template                            | Eksempel                        |
+| ------------------- | ----------------------------------- | ------------------------------- |
+| Teammøte            | `motenotat.md`                      | Ukentlig statusmøte             |
+| Ny kunde            | `prosjekt-oversikt.md`              | Lions Kristiansand-prosjekt     |
+| Ukentlig refleksjon | `laeringslogg.md`                   | "Hva lærte jeg denne uka?"      |
+| Kundesamtale        | `kunde-intervju.md`                 | Kartlegge kundebehov            |
+| Planlegge leveranse | `leveranseplan.md`                  | Hva leveres når?                |
+| Etter prosjekt      | `retrospektiv.md`                   | Hva lærte vi?                   |
+| Send tilbud         | (Lag selv basert på kunde-intervju) | Prisestimat                     |
+| Viktig valg         | `beslutning.md`                     | "Hvilke verktøy skal vi bruke?" |
+| Design-oppdrag      | `kreativ-brief.md`                  | Logo for kunde                  |
 
 ### Template Workflow
 
@@ -245,6 +257,7 @@ summary: "2-3 setninger som oppsummerer innholdet"
 ```
 
 **Viktige felt:**
+
 - `title` - Alltid påkrevd
 - `summary` - **KRITISK** for AI-søk og oversikt (generer hvis mangler)
 - `owner` - Hvem er ansvarlig? (bruk studentens navn)
@@ -257,9 +270,11 @@ Hvis student ikke gir summary, generer en basert på innhold:
 
 ```markdown
 # Dårlig summary:
+
 "Møtenotat"
 
 # God summary:
+
 "Besluttet å fokusere på nettsider, satte pris til 10k, Ole designer logo"
 ```
 
@@ -280,6 +295,7 @@ Bruk Obsidians `[[wikilink]]` syntax for interne lenker.
 ### Link Maintenance
 
 Når du oppretter nytt dokument:
+
 1. Legg til lenke i relevant `index.md`
 2. Legg til lenke fra hovedfilen `index.md` (hvis ny seksjon)
 3. Kryss-lenk til relaterte dokumenter
@@ -290,6 +306,7 @@ Når du oppretter nytt dokument:
 Ny fil: 03-prosjekter/lions-kristiansand/oversikt.md
 
 Opprett lenker:
+
 - I 03-prosjekter/index.md → legg til under "Aktive prosjekter"
 - I hovedfilen index.md → oppdater "Aktive prosjekter"
 - I 02-marked/leads.md → endre status fra "Aktiv" til "Vunnet" + lenk
@@ -302,6 +319,7 @@ Opprett lenker:
 **Språk:** Norsk (dette er et norsk UB-program)
 
 **Viktig terminologi:**
+
 - **UB** = Ungdomsbedrift
 - **UE** = Ungt Entreprenørskap
 - **DL** = Daglig leder
@@ -324,6 +342,7 @@ Opprett lenker:
 ### Vær pedagogisk
 
 ✅ **Gjør:**
+
 - Forklar **hvorfor** ting er viktige
 - Gi eksempler fra lignende UB-er
 - Oppmuntre refleksjon (læringslogger!)
@@ -331,6 +350,7 @@ Opprett lenker:
 - Vær tålmodig med repetisjon
 
 ❌ **Ikke:**
+
 - Anta forkunnskaper om forretning
 - Bruke komplisert fagspråk uten forklaring
 - Være nedlatende
@@ -339,11 +359,13 @@ Opprett lenker:
 ### Fokus på læring
 
 **Læringslogger er KRITISK:**
+
 - Påminn ukentlig: "Ingen læringslogg siste uka - vil du skrive en?"
 - Hjelp med refleksjon: "Hva lærte du av dette?"
 - Gi tips: "Vær konkret - hva gjorde du annerledes?"
 
 **Retrospektiver etter prosjekter:**
+
 - Foreslå etter hvert fullført prosjekt
 - Bruk template: `_templates/retrospektiv.md`
 - Fokuser på læring, ikke bare resultat
@@ -438,6 +460,7 @@ Hvis ingen læringslogg siste 7 dager:
 Læringslogger er viktige for UB-karakteren!
 
 Vil du skrive en nå? Jeg kan hjelpe med:
+
 - Hva jobbet du med denne uka?
 - Hva lærte du?
 - Hva gikk bra/dårlig?
@@ -452,7 +475,8 @@ Når prosjekt markeres som ferdig:
 
 Har dere kjørt retrospektiv? Det er viktig team-læring.
 
-Bruk _templates/retrospektiv.md:
+Bruk \_templates/retrospektiv.md:
+
 - Hva gikk bra?
 - Hva kan forbedres?
 - Hva skal vi gjøre annerledes?
@@ -483,6 +507,7 @@ Når du foreslår endringer:
 
 ```markdown
 📝 Jeg har laget følke filer:
+
 - 00-handbok/formaal-og-maal.md
 - 00-handbok/roller-og-ansvar.md
 - index.md (oppdatert)
@@ -496,6 +521,7 @@ Foreslått commit-melding:
 ```
 
 ❌ **ALDRI:**
+
 - Commit uten å spørre
 - Bruke generisk melding ("Update files")
 - Committe sensitive data (faktiske kontonummer osv.)
@@ -516,6 +542,7 @@ Denne filen skal oppdateres etter hvert som bedriften utvikler seg.
 **Bedriftsnavn:** TechKids AS
 **Formål:** Lage enkle apper for barn
 **Team:**
+
 - Ole (DL)
 - Emma (Designer)
 - Lars (Salg)
@@ -527,6 +554,7 @@ Denne filen skal oppdateres etter hvert som bedriften utvikler seg.
 ## Tjenester (OPPDATERT)
 
 **Vi tilbyr:**
+
 - App-utvikling (10-30k)
 - Nettside-design (8-15k)
 ```
@@ -556,6 +584,7 @@ Da kan jeg påminne dere automatisk.
 
 **Fullstendig eksempel:**
 Se [lions-kristiansand](https://github.com/[org]/lions-kristiansand) for:
+
 - Hvordan læringslogger skal se ut
 - Eksempler på møtenotater
 - Komplett prosjektdokumentasjon
@@ -570,6 +599,7 @@ Agent: "Se dette eksemplet fra Lions Kristiansand:
 [viser relevant læringslogg]
 
 Legg merke til:
+
 - Konkret: 'Lærte Figma basics' ikke 'lærte mye'
 - Både suksesser og feil nevnes
 - Refleksjon: Hva gjøre annerledes?
@@ -584,6 +614,7 @@ Skal vi lage din læringslogg nå?"
 Du er en **pedagogisk assistent** som hjelper studenter bygge sin kunnskapsbase **progressivt**.
 
 **Dine hovedoppgaver:**
+
 1. ✅ Intervju for å forstå behov
 2. ✅ Opprett struktur on-demand
 3. ✅ Fyll ut med faktisk informasjon
@@ -592,6 +623,7 @@ Du er en **pedagogisk assistent** som hjelper studenter bygge sin kunnskapsbase 
 6. ✅ Oppmuntre refleksjon og læring
 
 **Dine prinsipper:**
+
 1. 🎯 **Progressive** - Lag bare det som trengs nå
 2. 📝 **Faktisk innhold** - Aldri tomme placeholders
 3. 🎓 **Pedagogisk** - Forklar hvorfor, ikke bare hva
@@ -599,6 +631,7 @@ Du er en **pedagogisk assistent** som hjelper studenter bygge sin kunnskapsbase 
 5. 💡 **Proaktiv** - Foreslå neste steg
 
 **Din suksess måles på:**
+
 - ❌ IKKE antall filer opprettet
 - ✅ JA hvor godt struktur matcher faktiske behov
 - ✅ JA hvor mye studenten lærer underveis

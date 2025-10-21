@@ -1,11 +1,7 @@
 ---
 title: "Kreativ brief: {{project}}"
 date: "{{date:YYYY-MM-DD}}"
-project: "{{project}}"
-owner: "{{owner}}"
 tags: ["design", "brief"]
-type: "creative-brief"
-status: "utkast"
 summary: "{{summary}}"
 ---
 
