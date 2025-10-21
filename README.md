@@ -1,18 +1,27 @@
 # Ungdomsbedrift - Kunnskapsbase Template
 
-En minimal, ferdig strukturert kunnskapsbase for ungdomsbedrifter. Fork dette repoet og tilpass det til deres bedrift!
+**En minimal, progressiv kunnskapsbase-template for ungdomsbedrifter.**
+
+> [!important] Progressive struktur
+> Dette er IKKE en ferdig-utfylt kunnskapsbase. Mapper og filer opprettes **etter behov** når bedriften vokser.
+
+---
 
 ## 🎯 Hva er dette?
 
-Dette er en **startpakke** for ungdomsbedrifter som vil:
-- Holde god dokumentasjon fra dag 1
-- Dokumentere læring og refleksjon
-- Holde oversikt over prosjekter og økonomi
-- Bruke AI-verktøy effektivt (ChatGPT, Claude, osv.)
+En startpakke for ungdomsbedrifter (UB) som vil:
+- ✅ Dokumentere læring og refleksjon (viktig for karakter!)
+- ✅ Holde oversikt over prosjekter og økonomi
+- ✅ Bruke AI-assistenter effektivt
+- ✅ Unngå overwhelming med for mye struktur
 
-## 🚀 Komme i gang (5 minutter)
+**Filosofi:** Start minimalt, voks organisk.
 
-### 1. Fork eller klon repoet
+---
+
+## 🚀 Quick Start (2 minutter)
+
+### 1. Fork/klon dette repoet
 
 ```bash
 git clone https://github.com/[your-org]/ub-knowledge-base-template.git min-ub
@@ -22,162 +31,304 @@ cd min-ub
 ### 2. Åpne i Obsidian
 
 1. Last ned [Obsidian](https://obsidian.md/) (gratis)
-2. Åpne denne mappen som en vault: `File → Open vault → Open folder as vault`
-3. Start med [[index|hovedsiden]]
+2. `File → Open vault → Open folder as vault`
+3. Velg mappen du nettopp klonet
 
-### 3. Tilpass til deres bedrift
+### 3. Velg din tilnærming
 
-**Første time:**
-- [ ] Endre "Ditt Bedriftsnavn" i `index.md` til deres faktiske navn
-- [ ] Fyll ut [[00-handbok/formaal-og-maal|formål og mål]]
-- [ ] Definer [[00-handbok/roller-og-ansvar|roller]] i teamet
+**A) Med AI-assistent (ANBEFALT):**
+- Les `AGENTS.md` for hvordan agenten skal hjelpe
+- Koble til Claude/ChatGPT/Cursor
+- Si: "Hjelp meg komme i gang"
 
-**Første uke:**
-- [ ] Sett [[02-marked/pris-og-tjenester|priser]]
-- [ ] Lag [[04-okonomi/budsjett|budsjett]]
-- [ ] Skriv [[01-bedrift/om-oss|om oss]]
-- [ ] Dokumenter første [[06-moter/|teammøte]]
+**B) Manuelt:**
+- Les `ONBOARDING.md` for step-by-step guide
+- Start med å opprette `00-handbok/`
 
-## 📂 Struktur
+---
+
+## 📂 Hva er inkludert?
+
+**Kun 15 filer totalt:**
 
 ```
 ub-knowledge-base-template/
-├── _templates/          # 9 Obsidian templates for ulike dokumenttyper
-├── 00-handbok/          # Regler, roller og beslutninger
-├── 01-bedrift/          # Om dere
-├── 02-marked/           # Salg og leads
-├── 03-prosjekter/       # Kundeprosjekter
-├── 04-okonomi/          # Budsjett og regnskap
-├── 05-laering/          # Læringslogger og retrospektiver
-├── 06-moter/            # Teammøter
-├── 07-research/         # Markedsanalyse
-└── 08-ressurser/        # Verktøy og guider
+├── README.md              # Dette dokumentet
+├── ONBOARDING.md          # Menneske-guide (start her!)
+├── AGENTS.md              # AI-veiledning (viktigste for AI!)
+├── STRUCTURE.md           # Forklarer mappestrukturen
+├── index.md               # Minimal landingsside
+├── .gitignore             # Git-konfigurasjon
+├── .obsidian/             # Obsidian settings
+└── _templates/            # 9 Obsidian templates
+    ├── motenotat.md
+    ├── prosjekt-oversikt.md
+    ├── laeringslogg.md
+    ├── kunde-intervju.md
+    ├── leveranseplan.md
+    ├── ukerapport.md
+    ├── beslutning.md
+    ├── kreativ-brief.md
+    └── retrospektiv.md
 ```
 
-## 📋 9 Templates inkludert
+**Ingen placeholder-mapper. Ingen støy. Kun det dere trenger.**
 
-Alle templates finnes i `_templates/`:
+---
 
-1. **motenotat.md** - Dokumenter alle møter
-2. **prosjekt-oversikt.md** - Start nytt kundeprosjekt
-3. **laeringslogg.md** - Ukentlig refleksjon (viktig for UB!)
-4. **ukerapport.md** - Ukentlig statusoppdatering
-5. **kunde-intervju.md** - Kartlegg kundebehov
-6. **leveranseplan.md** - Planlegg leveranser
-7. **beslutning.md** - Dokumenter viktige valg
-8. **kreativ-brief.md** - Designoppdrag
-9. **retrospektiv.md** - Team-refleksjon etter prosjekter
+## 💡 Hvordan virker det?
 
-### Hvordan bruke templates i Obsidian
+### Traditional template (❌ problemet):
 
-1. Installer "Templater" plugin (anbefalt) ELLER bruk innebygd "Templates" core plugin
-2. Opprett ny fil
-3. Bruk template-kommando (Cmd/Ctrl + P → "Insert template")
+```
+template/
+├── 00-handbok/
+│   ├── index.md (placeholder)
+│   ├── formaal-og-maal.md (placeholder)
+│   └── roller-og-ansvar.md (placeholder)
+├── 01-bedrift/
+│   ├── index.md (placeholder)
+│   └── om-oss.md (placeholder)
+├── 02-marked/
+│   ├── index.md (placeholder)
+│   ├── leads.md (placeholder)
+│   └── pris-og-tjenester.md (placeholder)
+... 30+ placeholder-filer
 
-## 🎓 Pedagogisk fokus
-
-Denne strukturen støtter **læring**, ikke bare forretning:
-
-- **Læringslogger** (05-laering/) - Reflekter ukentlig over hva dere lærer
-- **Retrospektiver** - Lær av hvert prosjekt
-- **Beslutningslogg** - Forstå hvorfor dere tok visse valg
-- **Møtenotater** - Tren på strukturert kommunikasjon
-
-## 🤖 Bruk med AI-verktøy
-
-Denne kunnskapsbasen er optimalisert for AI:
-
-### Med Claude Desktop (MCP)
-```bash
-# Legg til i Claude Desktop config
-{
-  "mcpServers": {
-    "filesystem": {
-      "command": "npx",
-      "args": ["-y", "@modelcontextprotocol/server-filesystem", "/path/to/min-ub"]
-    }
-  }
-}
+Problem: 90% støy, 10% faktisk innhold ved oppstart
 ```
 
-### Med ChatGPT
-- Del relevante filer som kontekst
-- Be ChatGPT hjelpe med å fylle ut templates
-- La AI analysere budsjett, leads, osv.
+### Vår tilnærming (✅ løsningen):
 
-### Med Cursor/Copilot
-- Åpne vault i VS Code/Cursor
-- Bruk AI til å skrive møtenotater, læringslogger, osv.
+```
+template/
+├── AGENTS.md              # Instruksjoner til AI
+├── ONBOARDING.md          # Guide for mennesker
+├── _templates/            # Maler (brukes on-demand)
+└── index.md               # Minimal start
 
-## 💡 Beste praksis
+AI/elev oppretter struktur progressivt:
 
-**Dokumenter løpende:**
-- ✅ Skriv møtenotat UNDER møtet
-- ✅ Skriv læringslogg hver fredag
-- ✅ Oppdater leads-liste ukentlig
-- ❌ IKKE vent til slutten av året!
+Dag 1: "Hva heter bedriften?"
+  → Oppretter 00-handbok/formaal-og-maal.md (med faktisk info)
 
-**Hold det enkelt:**
-- Start med det viktigste (handbok, budsjett, leads)
-- Utvid etter behov
-- Ikke dokumenter ALT
+Uke 2: "Vi har fått en lead!"
+  → Oppretter 02-marked/leads.md (med faktisk lead-data)
 
-**Gjør det til en vane:**
-- Ukentlig statusmøte → møtenotat
-- Hver fredag → læringslogg
-- Hver måned → oppdater budsjett
+Uke 4: "Vi skal dokumentere møte"
+  → Oppretter 06-moter/YYYY-MM-DD-mote.md (med faktisk innhold)
+```
 
-## 📚 Eksempel
+**Resultat:** 90% faktisk innhold, 10% struktur fra dag 1.
 
-Vil du se hvordan en fullstendig utfylt kunnskapsbase ser ut?
+---
 
-Se [lions-kristiansand](https://github.com/[your-org]/lions-kristiansand) - et komplett eksempel med:
-- 1 fullført kundeprosjekt
-- 3 læringslogger
-- Flere møtenotater
-- Komplett budsjett og salgshistorikk
+## 🤖 AI-drevet onboarding
 
-## 🔗 Ressurser
+Denne templaten er spesielt designet for bruk med AI-assistenter.
 
-**Ungdomsbedrift:**
-- [UE Norge](https://ue.no/) - Offisielt UB-program
-- [UE Ressursbank](https://ue.no/ressurser) - Guider og maler
+**AGENTS.md inneholder:**
+- ✅ Progressive creation protocol
+- ✅ Onboarding-workflow med konkrete scenario
+- ✅ Template-valg og -bruk
+- ✅ Frontmatter-standarder
+- ✅ Pedagogisk tilnærming for 16-19 åringer
+- ✅ Proaktive påminnelser (læringslogger!)
 
-**Obsidian:**
-- [Obsidian Help](https://help.obsidian.md/)
-- [Markdown Guide](https://www.markdownguide.org/)
+**Eksempel på AI-interaksjon:**
 
-**Git:**
-- [Git Basics](https://git-scm.com/book/en/v2/Getting-Started-Git-Basics)
-- [GitHub Desktop](https://desktop.github.com/) - Enklere enn kommandolinje
+```
+Student: "Hva skal jeg gjøre først?"
 
-## ❓ FAQ
+AI: "La oss starte med grunnlaget. Hva heter bedriften?"
+Student: "TechKids AS"
 
-**Q: Må vi bruke Obsidian?**
-A: Nei! Dette er vanlige Markdown-filer. Bruk VS Code, iA Writer, eller hvilken som helst teksteditor. Men Obsidian er optimalisert for denne type kunnskapsbase.
+AI: "Flott! Hva er hovedformålet?"
+Student: "Vi skal lage apper for barn"
 
-**Q: Må vi bruke Git?**
-A: Nei, men det er sterkt anbefalt. Git gir versjonskontroll og backup. Bruk GitHub Desktop hvis kommandolinje er skummelt.
+AI: *Oppretter:*
+    - 00-handbok/formaal-og-maal.md (FYLT med faktisk info)
+    - 00-handbok/roller-og-ansvar.md
+    - Oppdaterer index.md
 
-**Q: Hvor ofte skal vi oppdatere kunnskapsbasen?**
-A: Minimum ukentlig (møtenotat + læringslogg). Ideelt: dokumenter ting når de skjer.
+AI: "Neste steg - vil dere sette priser?"
+```
 
-**Q: Hva hvis vi ikke har noe å skrive i en seksjon?**
-A: Da lar du den stå tom! Ikke fyll ut noe bare for å fylle ut. Strukturen er der når dere trenger den.
+---
 
-**Q: Kan vi endre strukturen?**
-A: Absolutt! Dette er en template, ikke en fasit. Tilpass til deres behov.
+## 📚 Dokumentasjon
+
+| Fil | For hvem | Når lese |
+| --- | -------- | -------- |
+| `README.md` | Alle | Nå (du er her!) |
+| `ONBOARDING.md` | Studenter/mennesker | Første dag |
+| `AGENTS.md` | AI-assistenter | Før første interaksjon |
+| `STRUCTURE.md` | Lærere/nysjerrige | Når du vil forstå strukturen |
+| `index.md` | Alle | Åpne i Obsidian |
+
+---
+
+## 🎓 Fokus på læring (viktig for UB!)
+
+Ungdomsbedrift handler om **læring**, ikke bare business.
+
+**Denne templaten fremhever:**
+- 📝 **Læringslogger** (ukentlig refleksjon)
+- 🔄 **Retrospektiver** (team-læring etter prosjekter)
+- 📋 **Beslutningslogg** (hvorfor tok vi dette valget?)
+- 🎯 **Formål** (hvorfor eksisterer vi?)
+
+**AI-en påminner proaktivt:**
+- "Ingen læringslogg siste uka - vil du skrive en?"
+- "Prosjektet er ferdig - skal vi kjøre retrospektiv?"
+
+---
+
+## 🔄 Progresjon
+
+**Typisk utvikling over et år:**
+
+```
+Uke 1:
+  template/
+  ├── 00-handbok/ (formål, roller)
+  ├── index.md
+  └── _templates/
+
+Uke 4:
+  + 02-marked/ (leads, priser)
+  + 06-moter/ (2-3 møtenotater)
+  + 05-laering/laeringslogger/ (3-4 logger)
+
+Uke 8:
+  + 03-prosjekter/[kunde1]/ (første prosjekt)
+  + 04-okonomi/ (budsjett, faktura)
+
+Uke 20:
+  + 03-prosjekter/[kunde2]/, [kunde3]/
+  + 05-laering/retrospektiver/
+  + 07-research/ (konkurranseanalyse)
+```
+
+**AI-en bygger strukturen etter faktiske behov - ikke på forhånd.**
+
+---
+
+## vs. Fullstendig eksempel
+
+**Vil du se hvordan en ferdig kunnskapsbase ser ut?**
+
+Se [lions-kristiansand](https://github.com/[org]/lions-kristiansand):
+- ✅ 3 fullførte prosjekter
+- ✅ 10+ læringslogger
+- ✅ 15+ møtenotater
+- ✅ Komplett økonomi
+- ✅ Salgshistorikk
+
+**Bruk det som inspirasjon, ikke som mal å kopiere.**
+
+---
+
+## 🛠️ Teknisk
+
+**Krever:**
+- Obsidian (gratis)
+- Git (for versjonskontroll)
+
+**Valgfritt:**
+- AI-assistent (Claude, ChatGPT, Cursor)
+- GitHub/GitLab (for backup og samarbeid)
+
+**Ingen:**
+- ❌ Node.js
+- ❌ Build-steg
+- ❌ Dependencies
+- ❌ Hosting
+
+Kun Markdown-filer + Obsidian.
+
+---
+
+## 💬 For lærere og veiledere
+
+**Hvorfor denne tilnærmingen?**
+
+1. **Reduserer cognitive load** - Studenter ser kun det de har laget
+2. **Fremmer eierskap** - De bygger strukturen selv
+3. **Unngår "template-hell"** - Ingen 30+ tomme filer
+4. **AI-vennlig** - Minimal støy i retrieval
+5. **Pedagogisk** - Lærer strukturering gradvis
+
+**Forventninger:**
+
+Alle UB-er vil ha:
+- ✅ `00-handbok/` (formål, roller)
+- ✅ `05-laering/` (læringslogger - KRITISK!)
+
+De fleste vil ha:
+- `02-marked/`, `03-prosjekter/`, `04-okonomi/`, `06-moter/`
+
+Noen vil ha:
+- `01-bedrift/`, `07-research/`, `08-ressurser/`
+
+**Det er helt OK.** La bedriftene utvikle seg organisk.
+
+---
+
+## 🤝 Bidra
+
+Fant du en forbedring?
+
+1. Fork dette repoet
+2. Lag en feature branch
+3. Send pull request
+
+**Spesielt ønsket:**
+- Flere templates
+- Bedre onboarding-instruksjoner
+- Eksempler på AI-interaksjoner
+
+---
 
 ## 📄 Lisens
 
 MIT License - bruk fritt!
 
-## 🤝 Bidra
+---
 
-Fant du en forbedring? Send pull request!
+## ❓ FAQ
+
+**Q: Må vi bruke AI-assistent?**
+A: Nei! Les `ONBOARDING.md` for manuell tilnærming. Men AI gjør det mye enklere.
+
+**Q: Hvorfor så få filer?**
+A: Unngå støy. Lag kun det dere trenger.
+
+**Q: Hva hvis vi allerede har dokumentasjon?**
+A: Perfekt! AI-en hjelper med å strukturere det (se AGENTS.md scenario D).
+
+**Q: Må vi følge 00-08 mappestrukturen?**
+A: Anbefalt, men ikke påkrevd. Tilpass etter behov.
+
+**Q: Hvor ofte skal vi skrive læringslogger?**
+A: Minst ukentlig. Det er viktig for UB-karakter!
 
 ---
 
-**Laget for ungdomsbedrifter av [din organisasjon] ❤️**
+## 🎯 Oppsummering
 
-God dokumentasjon → God læring → God ungdomsbedrift!
+**Denne templaten gir deg:**
+- ✅ Minimal start (kun 15 filer)
+- ✅ AI-drevet onboarding
+- ✅ Progressive struktur
+- ✅ Fokus på læring
+- ✅ 9 battle-tested templates
+- ✅ Ingen støy
+
+**Start enkelt. Voks organisk. Dokumenter læringen. 🚀**
+
+---
+
+**Lykke til med ungdomsbedriften!**
+
+_Laget med ❤️ for UB-programmet i Norge_
