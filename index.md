@@ -54,7 +54,7 @@ Mapper opprettes **progressivt** når dere trenger dem:
 ### Med AI-assistent (ANBEFALT)
 
 1. Åpne i Obsidian
-2. Koble til AI (Claude, ChatGPT, Cursor)
+2. Koble til AI (Warp, Claude, ChatGPT, Cursor)
 3. Si: "Hjelp meg komme i gang med kunnskapsbasen"
 
 AI-en vil intervjue deg og bygge strukturen progressivt.
