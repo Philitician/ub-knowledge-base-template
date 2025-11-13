@@ -21,10 +21,10 @@ En startpakke for ungdomsbedrifter (UB) som vil:
 
 ## 🚀 Quick Start (2 minutter)
 
-### 1. Fork/klon dette repoet
+### 1. Klon dette repoet
 
 ```bash
-git clone https://github.com/[your-org]/ub-knowledge-base-template.git min-ub
+git clone https://github.com/Philitician/ub-knowledge-base-template.git min-ub
 cd min-ub
 ```
 
